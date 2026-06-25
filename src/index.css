@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(135deg, #1a0533 0%, #0d1b6e 35%, #0a4d6e 70%, #0d6e4d 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
