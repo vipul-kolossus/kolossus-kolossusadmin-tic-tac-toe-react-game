@@ -92,6 +92,22 @@ export default function App() {
   }
 
   return (
+    <div className="page-wrapper">
+      <header className="kolossus-header">
+        <div className="header-inner">
+          <div className="header-logo">
+            <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="40" height="40" rx="10" fill="white" fillOpacity="0.2"/>
+              <path d="M10 20L20 10L30 20L20 30L10 20Z" fill="white"/>
+              <path d="M15 20L20 15L25 20L20 25L15 20Z" fill="#6C63FF"/>
+            </svg>
+            <span className="header-brand">KolossusAI</span>
+          </div>
+          <span className="header-tagline">Powered by KolossusAI</span>
+        </div>
+      </header>
+
+      <main className="main-content">
     <div className="app">
       <h1 className="title">Tic Tac Toe</h1>
 
@@ -145,6 +161,16 @@ export default function App() {
           </div>
         </div>
       )}
+    </div>
+      </main>
+
+      <footer className="kolossus-footer">
+        <div className="footer-inner">
+          <span className="footer-copy">&copy; {new Date().getFullYear()} KolossusAI. All rights reserved.</span>
+          <span className="footer-divider">|</span>
+          <span className="footer-tagline">Build, Deploy &amp; Scale with KolossusAI</span>
+        </div>
+      </footer>
     </div>
   );
 }
